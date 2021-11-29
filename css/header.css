@@ -1,0 +1,39 @@
+.title_logo{
+    width: 100%;
+    height: 10%;
+    padding: 1.3em 0em;
+    background-color: #007f01;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_duck{
+    width: 4em;
+    margin-right: 1em;
+    justify-content: center;
+}
+
+#logo_text{
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) {
+    #logo_text{
+        width: 15em;
+    }
+}
+
+@media screen and  (min-width: 641px) {
+    #logo_text{
+        width: 23em;
+    }
+}
+
+@media screen and  (min-width: 992px) {
+    #logo_text{
+        width: 30em;
+    }
+    
+}

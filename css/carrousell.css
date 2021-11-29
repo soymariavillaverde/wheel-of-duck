@@ -1,0 +1,119 @@
+.carrousell {
+    background-image: url(../assets/game-background.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 35%;
+    width: 100%;
+    max-height: 360px;
+    min-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    /* position: absolute;
+    z-index: 0; */
+
+}
+
+.duck_player {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.duck_player img {
+    width: 100%;
+    max-height: 125px;
+    padding-bottom: 30px;
+    z-index: 1;
+    animation: cambio 5s infinite alternate linear;
+}
+
+.duck_player p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6em;
+    padding: 0.15em;
+    text-align: center;
+    background-color: #92D3E9;
+    border: 0.1em solid black;
+    z-index: 3;
+    animation: cambio 5s infinite  linear;
+}
+
+.boxDuckName{
+    height: 30%;
+    max-height: 200px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    padding-right: 30px;
+}
+
+#wave_image {
+    background-image: url(../assets/game-wave.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    bottom: 0;
+    /*z-index: 2;*/
+}
+
+@keyframes cambio {
+    0% {margin-right: 0%;}
+    5% {margin-right: 0%;}
+    
+    6% {margin-right: -100%;}
+    11% {margin-right: -100%;}
+    
+    12% {margin-right: -200%;}
+    17% {margin-right: -200%;}
+    
+    18% {margin-right: -300%;}
+    23% {margin-right: -300%;}
+
+    24% {margin-right: -400%;}
+    29% {margin-right: -400%;}
+
+    30% {margin-right: -500%;}
+    35% {margin-right: -500%;}
+
+    36% {margin-right: -600%;}
+    41% {margin-right: -600%;}
+
+    42% {margin-right: -800%;}
+    47% {margin-right: -800%;}
+
+    48% {margin-right: -900%;}
+    53% {margin-right: -900%;}
+
+    54% {margin-right: -1000%;}
+    59% {margin-right: -1000%;}
+
+    60% {margin-right: -1100%;}
+    65% {margin-right: -1100%;}
+
+    66% {margin-right: -1200%;}
+    71% {margin-right: -1200%;}
+
+    72% {margin-right: -1300%;}
+    77% {margin-right: -1300%;}
+
+    78% {margin-right: -1400%;}
+    83% {margin-right: -1400%;}
+
+    84% {margin-right: -1500%;}
+    89% {margin-right: -1500%;}
+
+    90% {margin-right: -1600%;}
+    95% {margin-right: -1600%;}
+
+    90% {margin-right: -1700%;}
+    95% {margin-right: -1700%;}
+}

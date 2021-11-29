@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel of Duck</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="title_logo">
+            <img id="logo_duck" src="./assets/duck-alive.png" alt="Logo Wheel of Duck">
+            <img id="logo_text" src="./assets/wheel-of-duck-logo.png" alt="Wheel of Duck">
+        </div>
+    </header>
+
+    <main>
+        <section class="how-to-play">
+            <div class="how-to-line-p"><p class="text-number">1-</p><p class="how-text">  Introducir nuevos participantes en la sección Players</p></div>
+            <div class="how-to-line-p"><p class="text-number">2-</p><p class="how-text">  Hacer click en el botón Shoot para eliminar Players</p></div>
+            <div class="how-to-line-p"><p class="text-number">3-</p><p class="how-text">  Hacer click en Reset para reiniciar la partida</p></div>
+        </section>
+
+        <section class="carrousell">
+
+            <div class="duck_player" id="duck_player_id"></div>
+            <div id="wave_image"></div>
+
+        </section>
+
+        <section id="players-ranking">
+
+            <div id="players">
+                <p class="category-name">Players</p>
+                <div id="player-list"></div>
+                <input id="player-input" type="text">
+                <button id="btn-add-player">+</button>
+            </div>
+
+            <div id="ranking">
+                <p class="category-name">Raking</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer_style">  
+        <p class="copyright">Developed by © Punto y Coma</p>
+    </footer>
+
+</body>
+    <script src="scripts/index.js" type="module"></script>
+</html>

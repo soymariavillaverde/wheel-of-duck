@@ -1,0 +1,20 @@
+#players-ranking{
+    height: 50%;
+    width: 80%;
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: #92D3E9;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+
+}
+
+.category-name{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
